@@ -1,0 +1,96 @@
+* {
+  font-family: "Inter", serif;
+}
+
+figure img {
+  width: 60px;
+  height: 50px;
+  border: 50%;
+  display: block;
+  z-index: 1;
+}
+
+.whatsappbtn {
+  border: 1px solid #27ae60;
+  padding: 10px 18px;
+  color: #27ae60;
+  font-size: 16px;
+}
+
+.whasappbtn i {
+  color: #27ae60;
+}
+
+.whatsappbtn:hover {
+  border: 1px solid #27ae60;
+}
+
+.call {
+  color: white;
+  padding: 10px 18px;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+}
+
+.bannerContent h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.bannerContent p {
+  font-size: 16px;
+}
+
+.bannerContent h1 span {
+  color: #2699fb;
+}
+
+.bannerContent ul {
+  list-style: none;
+}
+
+.bannerContent ul li {
+  font-size: 22px;
+}
+
+.bannerContent ul li i {
+  color: #2699fb;
+  padding-right: 10px;
+}
+
+.bannerContentBtn button {
+  width: 50%;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.bannerContentBtn button:first-child {
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  color: white;
+}
+
+.downloadBtn i{
+    padding: 10px;
+}
+
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerForm button{
+   width:100%;
+  padding:10px 0px;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: none;
+    color: white;
+}
+
+.counterSection h3{
+      font-size: 30px;
+        font-weight: 700;
+        color:#2699FB;
+}
