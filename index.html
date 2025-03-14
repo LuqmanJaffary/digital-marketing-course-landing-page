@@ -21,59 +21,51 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
-
   <body>
-
-     <!-- Book Modal -->
-     <div
-     class="modal fade"
-     id="bookModal"
-   >
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h1 class="modal-title fs-5" id="exampleModalLabel">Book Now </h1>
-           <button
-             type="button"
-             class="btn-close"
-             data-bs-dismiss="modal"
-             aria-label="Close"
-           ></button>
-         </div>
-         <div class="modal-body">
-           <form action="" class="bannerForm p-3">
-             <h3>Book Your Class Now!</h3>
-             <p>2 days of free demo classes without playing in advance!</p>
-             <div class="mb-3">
-               <label class="form-label">Name</label>
-               <input type="text" class="form-control" />
-             </div>
-           
-             <div class="input-group mb-3">
-               <label class="form-label">Phone</label>
-               <div class="input-group mb-3">
-                 <span class="input-group-text" id="basic-addon1">+92</span>
-                 <input type="text" class="form-control" placeholder="Phone" />
-               </div>
-             </div>
-             <div class="mb-3">
-               <button>Register Now</button>
-             </div>
-           </form>
-         </div>
-       </div>
-     </div>
-   </div>
-
-    <!-- Enquire Modal -->
-    <div
-      class="modal fade"
-      id="enModal"
-    >
+    <!-- Book Modal -->
+    <div class="modal fade" id="bookModal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now </h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Book Now</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm p-3">
+              <h3>Book Your Class Now!</h3>
+              <p>2 days of free demo classes without playing in advance!</p>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+
+              <div class="input-group mb-3">
+                <label class="form-label">Phone</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">+92</span>
+                  <input type="text" class="form-control" placeholder="Phone" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button>Register Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enquire Modal -->
+    <div class="modal fade" id="enModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
             <button
               type="button"
               class="btn-close"
@@ -162,9 +154,19 @@
               </ul>
 
               <div class="bannerContentBtn d-flex gap-3">
-                <button class="demoBtn" data-bs-toggle="modal" data-bs-target="#bookModal">Book 2 days Demo</button>
-                <button class="downloadBtn"  data-bs-toggle="modal" data-bs-target="#enModal">
-                  <i class="fa-solid fa-download "></i>Download Curriculum
+                <button
+                  class="demoBtn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bookModal"
+                >
+                  Book 2 days Demo
+                </button>
+                <button
+                  class="downloadBtn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#enModal"
+                >
+                  <i class="fa-solid fa-download"></i>Download Curriculum
                 </button>
               </div>
             </div>
@@ -221,6 +223,111 @@
         </div>
       </div>
     </section>
+
+    <section class="container-fluid hightlight-section py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>key Highlights of the Course</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Perspiciatis, dolorum.
+            </p>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-solid fa-calendar py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-solid fa-face-smile py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-regular fa-circle-user py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-regular fa-user py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-regular fa-envelope py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div
+              class="bg-white p-3 d-flex align-items-start gap-3 highlightsItem"
+            >
+              <i class="fa-regular fa-bell py-2"></i>
+              <div>
+                <h4>
+                  Assignments & <br />
+                  Modules tests
+                </h4>
+                <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

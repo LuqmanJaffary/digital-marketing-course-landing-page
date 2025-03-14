@@ -67,30 +67,58 @@ figure img {
   color: white;
 }
 
-.downloadBtn i{
-    padding: 10px;
+.downloadBtn i {
+  padding: 10px;
 }
 
-.bannerForm{
-    padding: 40px;
-    border-radius: 10px;
+.bannerForm {
+  padding: 40px;
+  border-radius: 10px;
 }
 
-.bannerForm h3{
-    font-size: 18px;
-    font-weight: 700;
+.bannerForm h3 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.bannerForm button{
-   width:100%;
-  padding:10px 0px;
+.bannerForm button {
+  width: 100%;
+  padding: 10px 0px;
   background: linear-gradient(to right, #0acefe, #2699fb);
   border: none;
-    color: white;
+  color: white;
 }
 
-.counterSection h3{
-      font-size: 30px;
-        font-weight: 700;
-        color:#2699FB;
+.counterSection h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2699fb;
+}
+
+.hightlight-section {
+  background-color: #f7faff;
+}
+
+.hightlight-section h2 {
+  color: #0a2134;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.hightlight-section p {
+  font-size: 18px;
+}
+
+.highlightsItem h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.highlightsItem p{
+  font-size: 15px;
+}
+
+.highlightsItem i{
+  font-size: 50px;
+  color: #2699fb;
 }
