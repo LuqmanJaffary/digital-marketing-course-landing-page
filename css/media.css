@@ -43,7 +43,16 @@
     padding: 20px;
   }
 
-  .hightlight-section h2{
+  .hightlight-section h2 {
     font-size: 28px;
+  }
+
+  .offcanvas-title img {
+    width: 50px;
+    height: 50px;
+    color: #2699fb;
+  }
+  .navbar-nav li a {
+    color: #2699fb;
   }
 }
